@@ -5,3 +5,4 @@ Single-stroke processor core with risc-v architecture and rv32I command support 
 2. The ILA IP module is necessary for testing the FPGA configuration at the hardware level. If you are not going to use the debugging board, ignore this module.
 3. The constraints file was implemented for additional hardware experiments. You can safely ignore it (perhaps in the future I will either add it or remove it from the project)
 4. Everything about hardware testing in the source code has an FPGA comment. For simulation, you can ignore these code blocks, although they should not cause any problems.
+5. The "sim_1" folder contains testbanch for debugging written modules. Many of them have been changed many times during the development process. It is recommended to use your own tests to check the functionality.
